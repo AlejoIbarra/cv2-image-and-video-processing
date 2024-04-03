@@ -54,9 +54,9 @@ while True:
         break
 ```
 
-##Contribuyendo
+## Contribuyendo
 -Alejandro Ibarra
 
-##Créditos
+## Créditos
 -murtazasworkshop
 -Pixabay
