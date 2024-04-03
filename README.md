@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# OpenCV image and video processing AIB
 
 Breve descripción del proyecto y su propósito.
 
