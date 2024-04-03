@@ -16,11 +16,43 @@ pip install opencv-python numpy
 
 ## Uso
 
-Describe cómo usar tu proyecto y cómo importar las dependencias necesarias en tu código Python:
+Importación de librerias
 
 ```python
 import cv2
 import numpy as np
+```
+Importación de Imagen
+```python
+img = cv2.imread("../Resources/img/woman.jpg")
+cv2.imshow("Output",img)
+cv2.waitKey(0)
+```
+Importación de WebCam
+```python
+cap = cv2.VideoCapture(0)
+cap.set(3,640)
+cap.set(4,489)
+cap.set(10,100)
+while True:
+    success, img = cap.read()
+    cv2.imshow("Video", img)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+```
+
+Importación de Video
+```python
+
+cap = cv2.VideoCapture("../Resources/Videos/video.mp4")
+while True:
+    success, img = cap.read()
+    if success and img is not None and img.shape[0] > 0 and img.shape[1] > 0:
+        cv2.imshow("Video", img)
+    #Espera la palabra q para romper el bucle
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+```
 
 ##Contribuyendo
 -Alejandro Ibarra
