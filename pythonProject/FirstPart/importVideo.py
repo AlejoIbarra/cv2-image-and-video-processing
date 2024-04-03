@@ -1,7 +1,7 @@
 import cv2
 
 #import video and define the route
-cap = cv2.VideoCapture("../Resources/DeleteVideos/QcFf2x.mp4")
+cap = cv2.VideoCapture("../Resources/Videos/video.mp4")
 
 #el id del brillo es 10 y para darle 100 de brillo es de la siguiente forma
 #cap.set(10,100)
