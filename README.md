@@ -1,6 +1,7 @@
 # OpenCV image and video processing AIB
 
 Proyecto inicial para procesamiento de imagenes, videos y webcam, filtros, recortes y nuevos tamaños
+ademas de inserción de texto y figuras a los contenidos visuales
 ## Dependencias
 
 Este proyecto requiere las siguientes dependencias:
