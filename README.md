@@ -54,8 +54,8 @@ while True:
 ```
 
 ## Contribuyendo
--Alejandro Ibarra
+- Alejandro Ibarra
 
 ## Créditos
--murtazasworkshop
--Pixabay
+- murtazasworkshop
+- Pixabay
