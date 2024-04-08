@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("../Resources/img/woman.jpg")
+img = cv2.imread("../Resources/img/cards.jpg")
 # se imprime el tamaño, donde (y,x,numeroCanales)
 print(img.shape)
 
@@ -11,7 +11,8 @@ print(imgResize.shape)
 #recortar imagen
 #primero la altura y luego el ancho
 # se definen los rangos que quedaran
-imgCropped=img[100:350,200:640]
+#Y,X
+imgCropped=img[128:338,266:456]
 
 cv2.imshow("Original", img)
 cv2.imshow("Resized", imgResize)
